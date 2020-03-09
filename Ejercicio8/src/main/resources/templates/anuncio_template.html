@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es" xlmns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Anuncio</title>
+</head>
+<body>
+    <p th:text="'Nombre ' + ${anuncio.usuario}"></p>
+    <p th:text="'Asunto ' + ${anuncio.asunto}"></p>
+    <p th:text="'Comentario: ' + ${anuncio.comentario}"></p>
+    <br>
+    <a href="/">Volver</a>
+</body>
+</html>
