@@ -2,9 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Nueva persona</title>
 </head>
 <body>
-$END$
+    <h1>Nueva persona</h1>
+    <form action="/guardar_persona" method="post">
+        <span>Usuario: </span><br>
+        <input type="text" name="usuario"><br>
+        <span>Nombre: </span><br>
+        <input type="text" name="nombre"><br>
+        <span>Apellidos: </span><br>
+        <input type="text" name="apellidos"><br>
+        <input type="submit" value="Registrar">
+    </form>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <title>Anuncio</title>
 </head>
 <body>
-    <p th:text="'Nombre ' + ${anuncio.usuario}"></p>
+    <p th:text="'Nombre ' + ${anuncio.getUsuario()}"></p>
     <p th:text="'Asunto ' + ${anuncio.asunto}"></p>
     <p th:text="'Comentario: ' + ${anuncio.comentario}"></p>
     <br>

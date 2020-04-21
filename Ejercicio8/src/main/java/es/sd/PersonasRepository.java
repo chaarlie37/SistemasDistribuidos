@@ -1,4 +1,9 @@
 package es.sd;
 
-public interface PersonasRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PersonasRepository extends JpaRepository<Persona, Long> {
+
+    public Persona findByUsuario(String usuario);
+
 }

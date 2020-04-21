@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html lang="es">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Insertar anuncio</title>
 </head>
 <body>
-$END$
+<form method="post" action="/guardar_anuncio">
+    <span>Autor: </span>
+    <select name="usuario">
+        <option value="" selected="selected">Selecciona persona...</option>
+        <option th:each="persona: ${personas}" th:text="${persona.usuario}"></option>
+    </select>
+    <a href="/nueva_persona.html">Registrar nueva persona</a><br>
+    <span>Asunto: </span>
+    <input type="text" name="asunto"><br>
+    <p>Comentario: </p>
+    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+    <input type="submit">
+</form>
 </body>
 </html>

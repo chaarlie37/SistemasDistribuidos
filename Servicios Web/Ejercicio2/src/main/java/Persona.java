@@ -1,5 +1,3 @@
-package es.sd;
-
 import java.util.Collection;
 
 

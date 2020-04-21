@@ -1,5 +1,3 @@
-package es.sd;
-
 public class Anuncio {
 
     private Persona autor;

@@ -8,7 +8,7 @@ public class Anuncio {
         @Id
         @GeneratedValue(strategy = GenerationType.AUTO)
         private long id;
-
+        @ManyToOne
         private Persona autor;
         private String asunto;
         private String comentario;
@@ -19,26 +19,18 @@ public class Anuncio {
         }
 
         public Anuncio(Persona autor, String asunto, String comentario) {
-            this.autor = getAutor();
+            this.autor = autor;
             this.asunto = asunto;
             this.comentario = comentario;
         }
 
-        public void setAsunto(String asunto) {
-            this.asunto = asunto;
-        }
+    public long getId() {
+        return id;
+    }
 
-        public void setComentario(String comentario) {
-            this.comentario = comentario;
-        }
-
-        public String getAsunto() {
-            return asunto;
-        }
-
-        public String getComentario() {
-            return comentario;
-        }
+    public void setId(long id) {
+        this.id = id;
+    }
 
     public Persona getAutor() {
         return autor;
@@ -48,19 +40,31 @@ public class Anuncio {
         this.autor = autor;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public String getAsunto() {
+        return asunto;
     }
 
-    public long getId() {
-        return id;
+    public void setAsunto(String asunto) {
+        this.asunto = asunto;
+    }
+
+    public String getComentario() {
+        return comentario;
+    }
+
+    public void setComentario(String comentario) {
+        this.comentario = comentario;
+    }
+
+    public String getUsuario(){
+            return autor.getUsuario();
     }
 
     @Override
     public String toString() {
         return "Anuncio{" +
                 "id=" + id +
-                ", autor='" + autor + '\'' +
+                ", autor=" + autor +
                 ", asunto='" + asunto + '\'' +
                 ", comentario='" + comentario + '\'' +
                 '}';

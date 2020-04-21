@@ -1,6 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd623604-ae49-4647-a9ed-695798cc1b4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/ClienteAddPelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/ClienteGetPelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/ClienteGetPeliculas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/ClienteModifyPelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/NewFile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/main/java/clPeliculas/PeliculasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/src/test/java/clPeliculas/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/META-INF/maven/es.sd/clPeliculas/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/META-INF/maven/es.sd/clPeliculas/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/Actor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/ClienteAddPelicula.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/ClienteGetPelicula.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/ClienteGetPeliculas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/ClienteModifyPelicula.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/NewFile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/Pelicula.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/classes/clPeliculas/PeliculasService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClRetrofitPeliculasOpRecursos/target/test-classes/clPeliculas/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/main/java/clPeliculas/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/main/java/clPeliculas/ClSpringRestTemplTeamOpRecursosApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/main/java/clPeliculas/ClientePelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/main/java/clPeliculas/ClientePeliculas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/main/java/clPeliculas/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos/src/test/java/clPeliculas/ClSpringRestTemplTeamOpRecursosApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/AnuncioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/AnuncioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/PersonaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/PersonasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/static/nueva_persona.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/insertaranuncio_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/persona_insertada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/lib/gson-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/lib/retrofit-1.7.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/main/java/es/sd/Anuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/main/java/es/sd/AnunciosRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/main/java/es/sd/AnunciosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/main/java/es/sd/ClienteAddAnuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1/src/main/java/es/sd/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/src/main/java/es/sd/Ej1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicio1_1/src/test/java/es/sd/Ej1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Anuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnunciosService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Anuncio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/AnunciosService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/java/tablonanuncios/Anuncio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/java/tablonanuncios/AnuncioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/java/tablonanuncios/InsertarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/java/tablonanuncios/MostrarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/java/tablonanuncios/Tablon3ControladoresH2MemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/java/tablonanuncios/TablonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/resources/static/nuevoAnuncio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/resources/templates/insertar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/resources/templates/mostrar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/main/resources/templates/tablon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tablon3ControladoresH2Mem/src/test/java/tablonanuncios/Tablon3ControladoresH2MemApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio8/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/Anuncio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/Anuncio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/InsertarAnuncio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/MostrarAnuncio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/java/es/sd/TablonAnuncios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/static/insertar_anuncio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/anuncio_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/anuncio_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/insertado_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/insertado_anuncio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/tablon_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio8/src/main/resources/templates/tablon_template.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ClSpringRestTemplPeliculasOpRecursos" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Cliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cliente" />
+      <module name="Ejercicio2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cliente" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd623604-ae49-4647-a9ed-695798cc1b4e" name="Default Changelist" comment="" />
+      <created>1587494561639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587494561639</updated>
+      <workItem from="1587494564422" duration="1274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="886" y="102" width="1024" height="848" key="#Project_Structure" timestamp="1587494591099">
+      <screen x="0" y="30" width="1920" height="990" />
+    </state>
+    <state x="886" y="102" width="1024" height="848" key="#Project_Structure/0.30.1920.990@0.30.1920.990" timestamp="1587494591099" />
+    <state x="836" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587495104142">
+      <screen x="0" y="30" width="1920" height="990" />
+    </state>
+    <state x="836" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.990@0.30.1920.990" timestamp="1587495104142" />
+    <state x="1218" y="283" width="424" height="487" key="FileChooserDialogImpl" timestamp="1587495750820">
+      <screen x="0" y="30" width="1920" height="990" />
+    </state>
+    <state x="1218" y="283" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.990@0.30.1920.990" timestamp="1587495750820" />
+    <state x="968" y="183" width="924" height="687" key="Maven.ArtifactSearchDialog" timestamp="1587494580751">
+      <screen x="0" y="30" width="1920" height="990" />
+    </state>
+    <state x="968" y="183" width="924" height="687" key="Maven.ArtifactSearchDialog/0.30.1920.990@0.30.1920.990" timestamp="1587494580751" />
+    <state x="886" y="102" width="1024" height="848" key="SettingsEditor" timestamp="1587495236072">
+      <screen x="0" y="30" width="1920" height="990" />
+    </state>
+    <state x="886" y="102" width="1024" height="848" key="SettingsEditor/0.30.1920.990@0.30.1920.990" timestamp="1587495236072" />
   </component>
 </project>
