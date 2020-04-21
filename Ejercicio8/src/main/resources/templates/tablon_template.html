@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" xlmns:th="www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Tablon de anuncios</title>
@@ -9,7 +9,7 @@
     <h1>Tablon de anuncios</h1>
 
     <p th:each="anuncio: ${anuncios}">
-        <a th:href="'anuncio' + ${anuncioStat.index}" th:text="${anuncio.usuario} + ' / ' + ${anuncio.asunto}"></a>
+        <a th:href="'anuncio' + ${anuncio.id}" th:text="${anuncio.id} + ' / ' + ${anuncio.usuario} + ' / ' + ${anuncio.asunto}"></a>
     </p>
 
     <a href="insertar_anuncio.html">Insertar Nuevo Anuncio</a>

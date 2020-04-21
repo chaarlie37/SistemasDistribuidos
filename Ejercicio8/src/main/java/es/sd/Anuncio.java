@@ -1,9 +1,15 @@
 package es.sd;
 
+import javax.persistence.*;
+
+@Entity
 public class Anuncio {
 
+        @Id
+        @GeneratedValue(strategy = GenerationType.AUTO)
+        private long id;
 
-        private String usuario;
+        private Persona autor;
         private String asunto;
         private String comentario;
 
@@ -12,8 +18,8 @@ public class Anuncio {
 
         }
 
-        public Anuncio(String usuario, String asunto, String comentario) {
-            this.usuario = usuario;
+        public Anuncio(Persona autor, String asunto, String comentario) {
+            this.autor = getAutor();
             this.asunto = asunto;
             this.comentario = comentario;
         }
@@ -26,10 +32,6 @@ public class Anuncio {
             this.comentario = comentario;
         }
 
-        public void setUsuario(String usuario) {
-            this.usuario = usuario;
-        }
-
         public String getAsunto() {
             return asunto;
         }
@@ -38,9 +40,29 @@ public class Anuncio {
             return comentario;
         }
 
-        public String getUsuario() {
-            return usuario;
-        }
+    public Persona getAutor() {
+        return autor;
+    }
 
+    public void setAutor(Persona autor) {
+        this.autor = autor;
+    }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    @Override
+    public String toString() {
+        return "Anuncio{" +
+                "id=" + id +
+                ", autor='" + autor + '\'' +
+                ", asunto='" + asunto + '\'' +
+                ", comentario='" + comentario + '\'' +
+                '}';
+    }
 }
